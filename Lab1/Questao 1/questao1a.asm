@@ -8,7 +8,7 @@ quatro: .float 4
 
 BHASKARA:
 
-# Colocando parametros de funcao em coprocessador 1, $f0 armazena 'a', $f1 armazena 'b', $f2 armazena 'c'
+# Colocando parametros de funcao em coprocessador 1, $f0 armazena 'a', $f1 armazena 'b', $f2 armazena 'c', cvt.s.w usados para teste
 
 mtc1 $a0,$f0
 cvt.s.w $f0,$f0
